@@ -1,0 +1,41 @@
+#display {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-rows: 300px; /* Single row */
+}
+
+#computerEmoji {
+    grid-column: 1 / 2; /* Place in the first column */
+    grid-row: 1 / 2; /* Place in the first row */
+}
+
+#webcam {
+    grid-column: 2 / 3; /* Place in the second column */
+    grid-row: 1 / 2; /* Place in the first row */
+}
+#scoreComputer {
+    grid-column: 1 / 2; /* Place in the first column */
+    grid-row: 2 / 3; /* Place in the second row */
+}
+
+#scoreUser {
+    grid-column: 2 / 3; /* Place in the second column */
+    grid-row: 2 / 3; /* Place in the second row */
+}
+#indicator {
+    grid-column: 2 / 3; /* Place in the second column */
+    grid-row: 1 / 2; /* Place in the first row */
+    align-self: start; /* Align at the start of the row */
+    justify-self: center; /* Center horizontally */
+}
+body{
+    background-color: #ffcefb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+#indicator{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
