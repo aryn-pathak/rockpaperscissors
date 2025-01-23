@@ -51,6 +51,8 @@ async function predict() {
        rockConfidence = probabilities[0];
        paperConfidence = probabilities[1];
        scissorsConfidence = probabilities[2];
+
+      console.log(`rock: ${rockConfidence} || paper: ${paperConfidence} || scissors: ${scissorsConfidence}`);
        
        if(rockConfidence > 0.9){
            stateUser = "r";
